@@ -46,7 +46,7 @@ button:hover {
     background-color: rgb(229, 4, 4);
     clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%);
     animation: float 5s linear infinite;
-    opacity: 0;
+    opacity: 50;
 }
 
 /* Style for the GIF */
