@@ -44,7 +44,7 @@ button:hover {
     width: 20px;
     height: 20px;
     background-color: rgb(229, 4, 4);
-    clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 75%, 20% 100%, 0% 35%);
+    clip-path: polygon(-43% 0, 50% 91%, 143% 0);
     animation: float 5s linear infinite;
     opacity: 50;
 }
