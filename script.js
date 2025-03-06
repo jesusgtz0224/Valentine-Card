@@ -35,7 +35,7 @@ function showResponse(answer) {
 
 //Function to randomly move the NO button on the screen
 function moveNOButton() {
-    let x = Math.random() * (window.innerWidth - 100);
+    let x = Math.random() * (window.innerWidth - 50);
     let y = Math.random() * (window.innerHeight - 50);
 
     noButton.style.position = "absolute";
