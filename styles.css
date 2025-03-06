@@ -44,7 +44,8 @@ button:hover {
     width: 20px;
     height: 20px;
     background-color: rgb(229, 4, 4);
-    clip-path: polygon(-43% 0, 50% 91%, 143% 0);
+    border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
+    clip-path: polygon(0 0, 100% 0, 100% 41%, 50% 91%,0 41%);
     animation: float 5s linear infinite;
     opacity: 50;
 }
