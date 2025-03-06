@@ -112,8 +112,8 @@ function fadeInMusic(music) {
 // Function to trigger confetti
 function triggerConfetti() {
     confetti({
-        particleCount: 250, // Number of confetti pieces
-        spread: 100, // How wide the confetti spreads
+        particleCount: 100, // Number of confetti pieces
+        spread: 200, // How wide the confetti spreads
         origin: { y: 0.6 }, // Starting position
         colors: ['#ff0000', '#ff7300', '#fffb00', '#00ff00', '#00d0ff', '#ff00d0'] // Confetti colors
     });
