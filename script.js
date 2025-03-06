@@ -64,7 +64,7 @@ function createHeart() {
 
     setTimeout(() => {
         heart.remove();
-    }, 10);
+    }, 10000);
 }
 
 setInterval(createHeart, 300);
