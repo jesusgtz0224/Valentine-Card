@@ -60,7 +60,7 @@ function createHeart() {
     heart.style.height = size;
 
     heart.style.left = Math.random() * 100 + "vw";
-    heart.style.animationDuration = Math.random() * 3 + 10 + "s";
+    heart.style.animationDuration = Math.random() * 3 + 2 + "s";
 
     setTimeout(() => {
         heart.remove();
