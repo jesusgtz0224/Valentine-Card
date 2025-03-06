@@ -12,6 +12,7 @@ function showResponse(answer) {
         triggerConfetti();
         response.innerHTML = "Yay! ❤️ Can't wait to celebrate!";
         noButton.style.display = "none";
+        yesButton.style.display = "none";
     } else {
         // User clicked "No" 😢
         clickCount++; // Increase the click count
@@ -112,8 +113,8 @@ function fadeInMusic(music) {
 // Function to trigger confetti
 function triggerConfetti() {
     confetti({
-        particleCount: 1000, // Number of confetti pieces
-        spread: 70, // How wide the confetti spreads
+        particleCount: 250, // Number of confetti pieces
+        spread: 100, // How wide the confetti spreads
         origin: { y: 0.6 }, // Starting position
         colors: ['#ff0000', '#ff7300', '#fffb00', '#00ff00', '#00d0ff', '#ff00d0'] // Confetti colors
     });
