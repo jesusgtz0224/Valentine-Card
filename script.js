@@ -12,7 +12,6 @@ function showResponse(answer) {
         triggerConfetti();
         response.innerHTML = "Yay! ❤️ Can't wait to celebrate!";
         noButton.style.display = "none";
-        yesButton.style.display = "none";
     } else {
         // User clicked "No" 😢
         clickCount++; // Increase the click count
